@@ -3,4 +3,6 @@
     <string name="installTestPlugin">Install My Test plugin</string>
     <string name="openNewActivity">Open New Activity</string>
     <string name="startTestPlugin">Start Test Plugin</string>
+    <string name="home_url">https://github.com/SitingSong-SYSU/TestOfRePlugin/raw/master/MyHost/app/src/main/assets/external/TestPlugin.apk</string>
+    <string name="downloadTestPlugin">Download Test Plugin</string>
 </resources>

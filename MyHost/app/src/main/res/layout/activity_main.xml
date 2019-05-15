@@ -7,10 +7,18 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/btn_download_plugin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/downloadTestPlugin" />
+
+    <Button
         android:id="@+id/btn_install_test_plugin"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/btn_download_plugin"
         android:text="@string/installTestPlugin" />
 
     <Button
