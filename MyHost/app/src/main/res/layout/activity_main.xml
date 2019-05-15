@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_install_test_plugin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="@string/installTestPlugin" />
+
+    <Button
+        android:id="@+id/btn_start_test_plugin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/btn_install_test_plugin"
+        android:text="@string/startTestPlugin" />
+
+    <Button
+        android:id="@+id/btn_open_new_activity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/btn_start_test_plugin"
+        android:text="@string/openNewActivity" />
+
+</android.support.constraint.ConstraintLayout>
